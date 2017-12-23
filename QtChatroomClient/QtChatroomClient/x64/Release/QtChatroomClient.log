@@ -1,0 +1,35 @@
+﻿  Moc'ing QtChatroomLogin.h...
+  Uic'ing QtChatroomLogin.ui...
+  Rcc'ing QtChatroomLogin.qrc...
+RCC : warning : No resources in 'D:\VsProject\QtChatroomClient\QtChatroomClient\QtChatroomLogin.qrc'.
+  
+  Uic'ing QtChatroomClient.ui...
+  chatClient.cpp
+  moc_QtChatroomLogin.cpp
+  main.cpp
+  QtChatroomClient.cpp
+  QtChatroomLogin.cpp
+  socket.cpp
+  Generating Code...
+  qrc_QtChatroomLogin.cpp
+QtChatroomClient.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl NetworkThread::metaObject(void)const " (?metaObject@NetworkThread@@UEBAPEBUQMetaObject@@XZ)
+QtChatroomClient.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl NetworkThread::qt_metacast(char const *)" (?qt_metacast@NetworkThread@@UEAAPEAXPEBD@Z)
+QtChatroomClient.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl NetworkThread::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@NetworkThread@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+QtChatroomClient.obj : error LNK2019: unresolved external symbol "public: void __cdecl NetworkThread::chatsignal(char const *)" (?chatsignal@NetworkThread@@QEAAXPEBD@Z) referenced in function "protected: virtual void __cdecl NetworkThread::run(void)" (?run@NetworkThread@@MEAAXXZ)
+QtChatroomClient.obj : error LNK2019: unresolved external symbol "public: void __cdecl NetworkThread::listsignal(char *)" (?listsignal@NetworkThread@@QEAAXPEAD@Z) referenced in function "protected: virtual void __cdecl NetworkThread::run(void)" (?run@NetworkThread@@MEAAXXZ)
+QtChatroomClient.obj : error LNK2019: unresolved external symbol "public: void __cdecl NetworkThread::joinsignal(char const *)" (?joinsignal@NetworkThread@@QEAAXPEBD@Z) referenced in function "protected: virtual void __cdecl NetworkThread::run(void)" (?run@NetworkThread@@MEAAXXZ)
+QtChatroomClient.obj : error LNK2019: unresolved external symbol "public: void __cdecl NetworkThread::quitsignal(char const *)" (?quitsignal@NetworkThread@@QEAAXPEBD@Z) referenced in function "protected: virtual void __cdecl NetworkThread::run(void)" (?run@NetworkThread@@MEAAXXZ)
+QtChatroomClient.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl QtChatroomClient::metaObject(void)const " (?metaObject@QtChatroomClient@@UEBAPEBUQMetaObject@@XZ)
+QtChatroomClient.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl QtChatroomClient::qt_metacast(char const *)" (?qt_metacast@QtChatroomClient@@UEAAPEAXPEBD@Z)
+QtChatroomClient.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl QtChatroomClient::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QtChatroomClient@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+QtChatroomClient.obj : error LNK2019: unresolved external symbol "public: static struct QMetaObject const QtChatroomClient::staticMetaObject" (?staticMetaObject@QtChatroomClient@@2UQMetaObject@@B) referenced in function "public: static class QString __cdecl QtChatroomClient::tr(char const *,char const *,int)" (?tr@QtChatroomClient@@SA?AVQString@@PEBD0H@Z)
+socket.obj : error LNK2019: unresolved external symbol __imp_closesocket referenced in function "unsigned __int64 __cdecl connectsock(char const *,char const *,char const *)" (?connectsock@@YA_KPEBD00@Z)
+socket.obj : error LNK2019: unresolved external symbol __imp_connect referenced in function "unsigned __int64 __cdecl connectsock(char const *,char const *,char const *)" (?connectsock@@YA_KPEBD00@Z)
+socket.obj : error LNK2019: unresolved external symbol __imp_htons referenced in function "bool __cdecl FillSockAddr(struct sockaddr_in &,char const *,char const *)" (?FillSockAddr@@YA_NAEAUsockaddr_in@@PEBD1@Z)
+socket.obj : error LNK2019: unresolved external symbol __imp_inet_addr referenced in function "bool __cdecl FillSockAddr(struct sockaddr_in &,char const *,char const *)" (?FillSockAddr@@YA_NAEAUsockaddr_in@@PEBD1@Z)
+socket.obj : error LNK2019: unresolved external symbol __imp_recv referenced in function "int __cdecl SockReadChar(unsigned __int64,char *)" (?SockReadChar@@YAH_KPEAD@Z)
+socket.obj : error LNK2019: unresolved external symbol __imp_send referenced in function "int __cdecl SockSendLine(unsigned __int64,char const *)" (?SockSendLine@@YAH_KPEBD@Z)
+socket.obj : error LNK2019: unresolved external symbol __imp_socket referenced in function "unsigned __int64 __cdecl connectsock(char const *,char const *,char const *)" (?connectsock@@YA_KPEBD00@Z)
+socket.obj : error LNK2019: unresolved external symbol __imp_WSAStartup referenced in function "bool __cdecl InitWinSock(void)" (?InitWinSock@@YA_NXZ)
+socket.obj : error LNK2019: unresolved external symbol __imp_WSACleanup referenced in function "bool __cdecl DestroyWinSock(void)" (?DestroyWinSock@@YA_NXZ)
+D:\VsProject\QtChatroomClient\x64\Release\\QtChatroomClient.exe : fatal error LNK1120: 20 unresolved externals
