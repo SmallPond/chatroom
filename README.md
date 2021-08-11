@@ -1,5 +1,6 @@
-#chatroom
->socket网络编程
+# chatroom
+
+socket网络编程小项目
 
 - client -> 简单字符界面客户端 Linux 环境  UDP协议
 - server -> 简单字符界面服务器 Linux 环境  UDP协议
